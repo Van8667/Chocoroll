@@ -12,6 +12,12 @@ module A(
 
 reg [31:0] MEM [0:31];  // Memoria de 32 registros de 32 bits
 
+/*initial
+begin
+	$readmemh("datos.txt", MEM);
+	#10;
+end*/
+    
 // Inicializar la memoria
 initial begin
     integer i;
