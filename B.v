@@ -11,7 +11,7 @@ reg [31:0] MEM [0:32];
 
 initial
 begin
-	$readmemh("X", MEM);
+	$readmemh("datos2.txt", MEM);
 	#10;
 end
 
