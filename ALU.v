@@ -32,6 +32,6 @@ always @*
 			RESULTADO = 32'b0;
 		end
 	endcase
-	end
+end
 	
 endmodule
